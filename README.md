@@ -24,7 +24,7 @@ Any contribution to the game is welcome. You can submit a pull request on Github
 If you encounter any issues or have any questions, please open an issue on the Github repository (https://github.com/kristian-girsang/Zelda-Style-Game/issues) or contact me directly at kristiangirsang007@gmail.com
 
 ## License
-The game is released under the MIT Licensse.
+The game is released under the MIT License.
 
 ## Acknowledgements
 - Pygame library (https://www.pygame.org/)
