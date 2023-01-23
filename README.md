@@ -7,9 +7,7 @@ This is a Zelda style game created using Python 3.11 and the Pygame library. The
 To run the game, you will need to have Python 3.11 and Pygame installed on your machine. You can download the latest version of Python from the official website (https://www.python.org/downloads/) and install Pygame by running the command `pip install pygame`.
 
 ## Gameplay
-The objective of the game is to navigate through the map and defeat the final boss. The player controls the character using the arrow keys to move and the space bar to attack. 
-
-The player will encounter various enemies and obstacles, and must use weapons to defeat them.
+The objective of the game is to navigate through the map and defeat the final boss. The player controls the character using the arrow keys to move and the space bar to attack. The player will encounter various enemies and obstacles, and must use weapons to defeat them.
 
 ## Future Features
 - Multiplayer support
