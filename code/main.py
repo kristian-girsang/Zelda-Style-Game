@@ -1,5 +1,6 @@
 import pygame, sys
 from settings import *
+from level import Level
 
 class Game:
     def __init__(self):
@@ -8,9 +9,12 @@ class Game:
         pygame.init()
         # Set the screen size
         self.screen = pygame.display.set_mode((WIDTH, HEIGHT))
+        # Set the window title
         pygame.display.set_caption('Zelda')
         # Create a clock object to control the game's frame rate
         self.clock = pygame.time.Clock()
+
+        self.level = Level()
 
     def run(self):
         # Start the game loop
@@ -22,6 +26,7 @@ class Game:
                     sys.exit()
             # Clear the screen to black
             self.screen.fill('black')
+            self.level.run()
             # Update the display
             pygame.display.update()
             # Limit the frame rate
